@@ -243,6 +243,12 @@ header .nav-items {
           margin-right: 0.625rem;
           margin-top: 00.625rem;
           background-color: #fd1b5b; }
+          .charity-01-main .banner .wrapper .content .btn-002 ul li button{
+            display: inline-block;
+            border: none;
+            padding: 10px 24px;
+            list-style-type: none;
+            background-color: #fd1b5b; }
           .charity-01-main .banner .wrapper .content .btn-002 ul li a {
             color: #fff;
             font-size: 1rem;
@@ -279,6 +285,48 @@ header .nav-items {
       position: relative; }
       .charity-01-main .banner .img-wrapper .banner-img img {
         animation: shapeani3 5s linear infinite; }
+
+.modal {
+  border-radius: 7px;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif; }
+  .modal .logo a img {
+    width: 30px; }
+  .modal .modal-content {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px; }
+    .modal .modal-content .modal-body {
+      border-radius: 7px;
+      overflow: hidden;
+      background-color: #fff;
+      padding-left: 0px;
+      padding-right: 0px;
+      -webkit-box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9);
+      box-shadow: 0 10px 50px -10px rgba(0, 0, 0, 0.9); }
+      .modal .modal-content .modal-body h2 {
+        font-size: 18px; }
+      .modal .modal-content .modal-body p {
+        color: #777;
+        font-size: 16px; }
+      .modal .modal-content .modal-body h3 {
+        font-weight: 900;
+        color: #000;
+        font-size: 22px; }
+      .modal .modal-content .modal-body .close-btn {
+        color: #000; }
+      .modal .modal-content .modal-body .promo-img {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%; }
+  .modal .cancel {
+    color: gray;
+    font-size: 14px; }
+  .modal .btn {
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: #fd1b5b;}
 
 /* ================================ Section CSS =============================== */
 .charity-01-main .bg-02-b {
